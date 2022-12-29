@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+    @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&display=swap');
+    font-family: 'Arimo', sans-serif;
+}
+.joinparent{
+    height: 50vh;
+}
+.join{
+    width: 80vw;
+    height: 40vh;
+    padding: 50px 0px 0px 69px;
+}
+.join h1{
+    color:rgb(17, 154, 161) ;
+    font-size: 56px;
+}
+.join h2{
+    color: rgb(152, 163, 9);
+    font-weight: bold;
+    margin-top: 15px;
+}
+.join p{
+    font-size: 28px;
+    margin-top: 15px;
+
+}
+.both{
+    display: flex;
+    color: white;
+}
+.subs{
+    background: rgb(14, 124, 130);
+    width: 50vw;
+    height: 50vh;
+}
+.sub{
+    padding: 50px 0px 0px 69px;
+}
+.sub h2{
+    margin-bottom: 25px;
+}
+#doll{
+    font-size: 42px;
+}
+.sub h3{
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.sub button{
+    background-color: rgb(152, 163, 9);
+    width: 450px;
+    height: 65px;
+    color: white;
+    font-size: x-large;
+    border-style: none;
+}
+.whyus{
+    background-color:rgb(17, 154, 161) ;
+    width: 50vw;
+    height: 50vh;
+}
+.whys{
+    padding: 50px 0px 0px 69px;
+}
+.whys h2{
+    margin-bottom: 30px;
+}
+.whys pre{
+    line-height: 30px;
+}

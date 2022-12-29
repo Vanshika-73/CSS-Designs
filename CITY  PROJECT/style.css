@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.glow{
+    background-image: url("light.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body{
+    background-image: url("dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 718px;
+    width: 1487px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}

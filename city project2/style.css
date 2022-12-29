@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: flex;
+    width: 100%;
+}
+
+.box img{
+    width: 306px;
+    height: 716px;
+}
+.dark{
+    filter:brightness(20%);
+}
+.light{
+    filter: brightness(100%);
+}

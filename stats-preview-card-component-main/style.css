@@ -1,0 +1,64 @@
+*{
+    margin: 0;padding: 0;
+    color: white;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 446px;
+    margin: 150px 0px;
+}
+.intro{
+    height: 446px;
+    width: 540px;
+    background-color: rgb(45, 7, 81);
+}
+.data{
+    height: 396px;
+    width: 460px;
+    margin: 50px 40px;
+}
+.data h1{
+   font-size:45px;
+}
+.p1{
+    margin: 30px 10px 45px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.grades{
+    display: flex;
+}
+.grades span{
+    margin: 20px 33px 0px 0px;
+}
+.h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.p{
+    margin: 10px 55px 0px 0px;
+    font-size: small;
+}
+.intro h1{
+    display: inline;
+}
+.diff{
+    color: rgb(150, 52, 150);
+}
+.overlay{
+    position: relative;
+    background-color: rgb(150, 52, 150);
+}
+.image img{
+    opacity: 0.5;
+    filter: rgb(150, 52, 150);
+}
+
+@media only screen and (max-width:1071px){   
+    .intro{
+        width: 500px;
+    }
+}

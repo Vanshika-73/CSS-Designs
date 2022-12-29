@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.block1{
+    height: 100vh;
+    background-image:url("images/desktop/image-header1.jpg");
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 50px 0px 0px 40px;
+}
+.nav{
+    margin: 50px 0px;
+}
+.nav ul li{
+    display: inline;
+    margin: 0px 50px;
+    color: white;
+    font-size: 18px;
+}
+.navbar ul li:hover{
+    font-size:23px ;
+}
+.creat h1{
+    color: white;
+    font-size:62px ;
+    text-align: center;
+    margin-top: 100px;
+}
+.arrow img{
+    position: relative;
+    left: 700px;
+    top: 85px;
+}
+.block2{
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+.a{
+    width: 50%;
+}
+.a1{
+    padding: 80px 150px 0px 70px;
+    font-weight: bold;
+}
+.a1 button{
+    margin-top: 20px;
+    width: 150px;
+    border-style: none;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: white;
+}
+.a1 h1{
+    font-size: 62px;
+    font-weight: bold;
+}
+.a1 p{
+    margin-top:30px ;
+    line-height: 30px;
+}
+.b{
+    width: 50%;
+}
+.block3{
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+.c{
+    width: 50%;
+}
+.d{
+    width: 50%;
+}
+.d1{
+    padding: 80px 150px 0px 70px;
+    font-weight: bold;
+}
+.d1 h1{
+    font-size: 62px;
+    font-weight: bold;
+}
+.d1 p{
+    margin-top:30px ;
+    line-height: 30px;
+}
+.d1 button{
+    margin-top: 20px;
+    width: 150px;
+    border-style: none;
+    color: black;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: white;
+}
+.block4{
+    width: 100%;
+    display: flex;
+    height: 600px;
+}
+.e{
+    width: 50%;
+    background-image: url("images/desktop/image-graphic-design.jpg");
+}
+.e1{
+    width: 350px;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    left: 20%;
+    color: rgb(12, 129, 84);
+}
+.e1 h2{
+    font-weight: bold;
+    font-size: 53px;
+}
+.e1 p{
+    margin-top: 30px;
+    line-height: 30px;
+}
+.f{
+    width: 50%;
+    background-image: url("images/desktop/image-photography.jpg");
+}
+.f1{
+    width: 350px;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    left: 25%;
+    color: rgb(27, 133, 178);
+}
+.f1 h2{
+    font-weight: bold;
+    font-size: 53px;
+}
+.f1 p{
+    margin-top: 30px;
+    line-height: 30px;
+}
+.heading{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.clients {
+    display: flex;
+    justify-content: space-around;
+}
+.clients img{
+    border-radius: 50%;
+    margin-top: 60px;
+}
+.clients p{
+    margin-top: 40px;
+}
+.clients h2{
+    margin-top: 60px;
+}
+.block6{
+    display: flex;
+    height: 624px;
+}
+.i{
+    width: 25%;
+}
+.j{
+    width: 25%;
+}
+.k{
+    width: 25%;
+}
+.l{
+    width: 25%;
+}
+.block7{
+    height: 300px;
+    background-color: rgb(110, 170, 110);
+}
+.block7 img{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 674px;
+    top: 70px;
+}
+.services li{
+    margin: 0px 90px;
+    display: inline;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 404px;
+}
+
+.icons li{
+    display: inline;
+    margin: 0px 10px;
+    color: white;
+    position: relative;
+    top: 75px;
+}

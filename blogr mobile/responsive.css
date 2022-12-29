@@ -1,0 +1,134 @@
+@media screen and (max-width:580px) {
+    .header{
+        height: 90vh;
+        background-image: url("images/bg-pattern-intro-mobile.svg");
+        background-position:21% 51%;
+    }
+    .logo{
+        padding-top: 60px;
+        padding-left: 30px;
+    }
+    .nav ul li{
+        visibility: hidden;
+    }
+    .content{
+        width: 400px;
+        margin: 0px 95px;
+    }
+    .content h1{
+        margin-top: 90px;
+        text-align: center;
+        width: 360px;
+    }
+    .content p{
+        width: 330px;
+    }
+    .design-heading{
+        text-align: center;
+        margin-top: 120px;
+        margin-left:  40px;
+    }
+    .design{
+        background-image: url("images/illustration-editor-mobile.svg");
+        background-position: 30% 0%;
+        width: 500px;
+        margin-left: 60px;
+        margin-bottom: 170px;
+    }
+    .data{
+        margin-top: 370px;
+        width: 80%;
+        /* margin-left: 60px; */
+        margin-left: 10px;
+        text-align: center;
+    }
+    .intro h1{
+        width: 80%;
+        margin-left: 50px;
+    }
+    .intro p{
+        width:90% ;
+        margin-left:40px ;
+        line-height: 22px;
+    }
+    .robust h1{
+        width: 80%;
+        margin-left: 50px;
+    }
+    .robust p{
+        width:90% ;
+        margin-left:40px ;
+        line-height: 22px;
+    }
+    .infra{
+        flex-direction: column;
+        height: 100vh;
+        border-radius: 0px 90px 0px 90px;
+        background-position:47% 132%;
+        margin-bottom: 50px;
+    }
+    .phone img{
+        margin-left: 80px;
+        height: 350px;
+        width: 400px;
+        position: relative;
+        bottom: 90px;
+    }
+    .state{
+        width: 60%;
+        text-align: center;
+    }
+    .state h1{
+        align-items: center;
+        margin-top: 10px;
+    }
+    .state p{
+        align-items: center;
+    }
+    .features{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .lappi{
+        margin-top:0px ;
+        background-image: url("images/illustration-laptop-mobile.svg");
+        width: 100%;
+        height: 500px;
+        padding-bottom: 30px;
+        margin-right: 120px;
+        /* background-position: 80% 4%; */
+    }
+    .all{
+        width: 60%;
+        align-items: center;
+        text-align: center;
+        margin-left: 130px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-right: 90px;
+    }
+    .footer{
+        flex-direction: column;
+        height: 150vh;
+    }
+    #logo img{
+        margin-top: 100px;
+        margin-left: 40%;
+        height: 55px;
+    }
+    .details{
+        flex-direction: column;
+        margin: 30px 115px;
+    }
+    .details ul{
+        margin-bottom: 40px;
+    }
+    .details ul h4{
+        margin-bottom: 30px;
+        font-weight: bolder;
+    }
+    .details ul li{
+        margin: 10px;
+        text-align: center;
+    }
+}

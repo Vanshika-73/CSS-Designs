@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    color: white;
+}
+.img{
+    margin: 70px 0px 0px 30px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0px 0px 50px;
+}
+.yellow{
+    background: rgb(196, 128, 20);
+    height: 550px;
+    width: 400px;  
+    border-radius: 8px 0px 0px 8px;  
+}
+.yellow h1{
+    margin: 30px 0px 10px 30px;
+}
+.yellow p{
+    margin: 0px 50px 20px 30px;
+    font-size: 18px;
+}
+.yellow button{
+    color:rgb(196, 128, 20) ;
+}
+.blue{
+    background: rgb(16, 78, 73);
+    height: 550px;
+    width: 400px;
+}
+.blue h1{
+    margin: 30px 0px 10px 30px;
+}
+.blue p{
+    margin: 0px 50px 20px 30px;
+    font-size: 18px;
+}
+.blue button{
+    color:rgb(16, 78, 73) ;
+}
+.green{
+    background: rgb(7, 70, 56);
+    height: 550px;
+    width: 400px;
+    border-radius: 0px 8px 8px 0px;
+}
+.green h1{
+    margin: 30px 0px 10px 30px;
+}
+.green p{
+    margin: 0px 50px 20px 30px;
+    font-size: 18px;
+}
+.green button{
+    color: rgb(7, 70, 56);
+}
+.button{
+    margin: 0px 10px 00px 30px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 36px;
+    border-style: none;
+}

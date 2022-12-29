@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>PRESS ANY KEY</h1>
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="images/dice1.png" />
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="images/dice4.png" />
+      </div>
+    </div>
+    <script>
+      document.addEventListener('keydown',(event)=>{
+        let n=Math.ceil(Math.random()*6);
+        let n2=Math.ceil(Math.random()*6);
+        dice(n,n2);
+      })
+      function dice(n,n2){
+        document.querySelector('.img1').src= `images/dice${n}.png`;
+        document.querySelector('.img2').src= `images/dice${n2}.png`;
+        winner(n,n2);
+      }
+      function winner(n,n2){
+        if(n>n2){
+          document.querySelector('h1').innerText="PLAYER 1 WINS"
+        }
+        else if(n==n2){
+          document.querySelector('h1').innerText="ITS A TIE"
+        }
+        else{
+          document.querySelector('h1').innerText="PLAYER 2 WINS"
+        }
+      }
+    </script>
+  </body>
+</html>
